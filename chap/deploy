@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+log "cd #{release_path} && bundle"
+run "cd #{current_path} && echo bundle > bundle.txt"
